@@ -10,6 +10,8 @@ namespace CSBasic
     {
         static void Main(string[] args)
         {
+            var name = "김" + "정" + "우";
+            Console.Write("Hello C#");
         }
     }
 }
