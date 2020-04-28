@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSBasic
 {
@@ -11,7 +7,20 @@ namespace CSBasic
         static void Main(string[] args)
         {
             var name = "김" + "정" + "우";
-            Console.Write("Hello C#");
+
+            Console.WriteLine(name);
+
+            Console.Write("Hello C#");//\n 없음
+            Console.WriteLine("Hello World");//\n 있음
+            Console.WriteLine("Hello World");
+            Console.Write(3*4);
+            Console.Write(3*4);
+
+            Console.WriteLine("한빛 \t 아카데미");
+
+            Console.WriteLine("안녕하세요 " + name + "님");
+
+            Console.WriteLine(true);
         }
     }
 }
