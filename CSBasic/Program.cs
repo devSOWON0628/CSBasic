@@ -21,6 +21,10 @@ namespace CSBasic
             Console.WriteLine("안녕하세요 " + name + "님");
 
             Console.WriteLine(true);
+
+            int a = 2000000000;
+            int b = 1000000000;
+            Console.WriteLine(a + b);
         }
     }
 }
