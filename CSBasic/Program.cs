@@ -24,7 +24,20 @@ namespace CSBasic
 
             int a = 2000000000;
             int b = 1000000000;
+            Console.WriteLine((long)a + b);
+            Console.WriteLine((long)a + (long)b);
+            Console.WriteLine((long)(a + b));
             Console.WriteLine(a + b);
+            Console.WriteLine("");
+
+            Console.WriteLine("long max : "+long.MaxValue);
+            Console.WriteLine("long min : " + long.MinValue+"\n");
+
+            Console.WriteLine(sizeof(char));
+
+            Console.Write("==입력테스트== : ");
+            string input = Console.ReadLine();
+            Console.WriteLine("입력 : " + input);
         }
     }
 }
